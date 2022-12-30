@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* Logo header */
+    .header-top{
+        font-family: sans-serif;
+        background-color: #ffffff;
+        height: 7.4619%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8.5%;
+    }
+    .header-logo1{
+        height: 6.413rem;
+        width: 18.75rem;
+        margin: 2rem 0rem;
+    }
+    .header-logo2{
+        height: 3.813rem;
+        width: 13.75rem;
+    }
+    .header-side{
+        width: 14.3rem;
+    }
+    .header-text1{
+        color: #606060;
+        font-size: 0.89rem;  
+    }
+    .header-text2{
+        color: #ff872d;
+        font-size: 2.2rem;
+    }
+
+/*Nav*/
+    .header-nav{
+        font-family: sans-serif;
+        background-color: #4d2679;
+        height: 2.0424%;
+    }
+    .header-size{
+        padding-left: 18.75rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem
+    }
+    .nav1{
+        color: #ffffff;
+        padding: 0.85rem 0rem;
+        font-size: 1rem;
+        display: inline-block;
+        text-decoration: none;
+    }
+    .nav1-home{
+        color: #fbab22;
+        text-decoration: none;
+    }
+    .nav1:hover{
+        color: #c8c8c8;
+    }
+    .nav1-home:hover{
+        color: #d29a39;
+    }
+
+/*Body*/
+    .wholepic{
+        position: relative;
+    }
+    .pic{
+        height: 24.2559%;
+        width: 100%;
+        display: block;
+    }
+    .pass{
+        position: absolute;
+        width: 40.625rem;
+        top: 29%;
+        right: 29%;
+    }
+    .middle1{
+        font-size: 3rem;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #ffffff;
+        border: 0.125rem solid #ffffff;
+        text-align: center;
+        padding: 0.625rem 0rem;
+    }
+    .middle2{
+        font-size: 1rem;
+        font-family: sans-serif;
+        color: #ffffff;
+        padding-top: 40px;
+        text-align:center ;
+    }
+    .squarewhole{
+        display: flex;
+        height: 16.05rem;
+    }
+  
+    .square1{
+        color: #ffffff;
+        font-size: 2.313rem;
+        padding-top: 6.875rem;
+        padding-right: 1.25rem;
+        background-color: #ffa345;
+        width: 36%;
+        text-align: end;
+        position: relative;
+    }
+    .squarebar{
+        margin-top: 75px;
+        margin-left: 395px;
+        height: 0.375rem;
+        width: 8.125rem;
+        background-color:  #ffffff;
+        position: absolute;
+    }
+    .square2{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: #606060;
+        background-color: #ffffff;
+        width: 64%;
+        padding-top: 4.375rem;
+        padding-left: 1.25rem;
+    }
+    /*body-part2*/
+    .tall{
+        height: 46.995rem;
+        background-color: #efefef;
+        position: relative;
+    }
+    .tall-inside{
+        height: 36.95rem;
+        background-color: #efefef;
+        position: absolute;
+        top: 5.625rem;
+        left: 13.75rem;
+    }
+    .tall-text1{
+        font-weight: bold;
+        text-align: center;
+        color: #606060;
+        font-size: 2.313rem;
+    }
+    .tall-text2{
+        color: #606060;
+        padding-top: 2.5rem;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+/*Grid-inside-Massage-Therapies-&-Treatments*/
+    .small-boxes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 1.25rem;
+        padding-top: 2.5rem;
+    }
+    .bullet::before{
+        padding-left: 1.25rem;
+    }
+/*bottom-box*/
+    .bottom-box-full{
+        display: flex;
+        height: 7.875rem;
+        font-size: 1.875rem;
+        color: #ffffff;
+    }
+    .bottom-box1{
+        background-color: #ffa345;
+        width: 50%;
+        text-align: end;
+        padding-top: 50px;
+        padding-right: 35px
+    }
+    .bottom-box2{
+        background-color: #4d2679 ;
+        width: 50%;
+        padding-top: 50px;
+        padding-left: 35px;
+    }
+/*before-footer*/
+    .big-footer{
+        height: 22.706rem;
+        background-color: #efefef;
+    }
+    .before-footer{
+        display: flex;
+        justify-content: center;
+        padding-top: 60px;
+        gap: 100px
+    }
+    .footer-first-child{
+        font-size: 1.125rem;
+        color: #222222;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+    .footer-inside-box{
+        font-size: 1rem;
+        color: #606060;
+        line-height: 1.6rem;
+    }
+/*Footer*/
+    .footer{
+        background-color: rgb(255, 255, 255);
+        height: 1.438rem;
+        font-size: 0.75rem;
+        text-align: center;
+        padding: 5px;
+    }
+
+
+    
